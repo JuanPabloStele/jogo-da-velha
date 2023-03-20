@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Sobre from './objects/Sobre';
 
-function App() {
+function App () {
   return (
-    <a href='#' className='action'>sobre</a>
+    <Sobre />
   );
 }
 
